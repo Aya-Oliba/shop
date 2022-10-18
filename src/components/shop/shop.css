@@ -1,0 +1,37 @@
+.card {
+    height: 550px;
+}
+.size-20 {
+    font-size: 20px;
+}
+.size-15 {
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    color: black;
+}
+ul a,
+ul a:active
+{
+    color: green;
+}
+.cart-icon {
+    font-size: 35px;
+    color: green;
+}
+.cart-icon + span {
+    content: "0";
+    background-color: red;
+    padding: 6px;
+    line-height: 0.3;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 145px;
+}
